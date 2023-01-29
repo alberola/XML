@@ -1,0 +1,39 @@
+
+<!DOCTYPE Libreria SYSTEM "Libreria.dtd">
+<?xml-stylesheet type="text/xsl" href = "Libreria3.xsl"?>
+<Libreria>
+  <Libro>
+	<Titulo>Don Quijote</Titulo>
+    <Autor>Cervantes</Autor>
+    <Editor>Editor1</Editor>
+    <ISBN>10000</ISBN>
+	<Precio>30</Precio>
+	<Novedad>Si</Novedad>
+  </Libro>
+  <Libro>
+	<Titulo>Cronicas de una muerte Anunciada</Titulo>
+    <Autor>Garcia Marquez</Autor>
+    <Editor>Editor2</Editor>
+    <ISBN>5000</ISBN>
+	<Precio>35</Precio>
+	<Novedad>no</Novedad>
+  </Libro>
+  <Libro>
+	<Titulo>El Principito</Titulo>
+    <Autor>Pablo Neruda</Autor>
+    <Editor>Editor3</Editor>
+    <ISBN>2000</ISBN>
+	<Precio>40</Precio>
+	<Novedad>si</Novedad>
+  </Libro>
+  <Libro>
+	<Titulo>Dune</Titulo>
+    <Autor>Alejandro</Autor>
+    <Editor>Editor4</Editor>
+    <ISBN>1000</ISBN>
+	<Precio>50</Precio>
+	<Novedad>Si</Novedad>
+  </Libro>
+  
+ </Libreria>
+ 

@@ -1,0 +1,35 @@
+<?xml-stylesheet type="text/xsl" href = "Artista.xsl"?>
+<artistas>
+  <artista>
+	<codigo>a101</codigo>
+    <nombreCompleto>Diego Velázquez</nombreCompleto>
+    <nacimiento>1599</nacimiento>
+    <fallecimiento>1660</fallecimiento>
+    <pais>España</pais>
+    <fichaCompleta>https://es.wikipedia.org/wiki/Diego_Vel%C3%A1zquez</fichaCompleta>
+  </artista>
+  <artista>
+	<codigo>a102</codigo>
+    <nombreCompleto>Michelangelo Caravaggio</nombreCompleto>
+    <nacimiento>1571</nacimiento>
+	<fallecimiento/>
+    <pais>Italia</pais>
+    <fichaCompleta>https://es.wikipedia.org/wiki/Caravaggio</fichaCompleta>
+  </artista>
+  <artista>
+	<codigo>a103</codigo>
+    <nombreCompleto>Herrada de Landsberg</nombreCompleto>
+    <nacimiento>1125</nacimiento>
+    <fallecimiento>1195</fallecimiento>
+    <pais>Alsacia</pais>
+    <fichaCompleta>  https://es.wikipedia.org/wiki/Herrada_de_Landsberg</fichaCompleta>
+  </artista>
+  <artista cod="a104">
+	<codigo>a104</codigo>
+    <nombreCompleto>Francisco de Goya</nombreCompleto>
+    <nacimiento>1746</nacimiento>
+    <fallecimiento>1828</fallecimiento>
+    <pais>España</pais>
+    <fichaCompleta>https://es.wikipedia.org/wiki/Francisco_de_Goya</fichaCompleta>
+  </artista>
+</artistas>

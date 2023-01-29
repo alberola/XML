@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+   <!ELEMENT artistas (artista)+>
+   <!ELEMENT artista (codigo,nombreCompleto,nacimiento,fallecimiento,pais,fichaCompleta)>
+   <!ELEMENT codigo(#PCDATA)>
+   <!ELEMENT nombreCompleto(#PCDATA)>
+   <!ELEMENT nacimiento(#PCDATA)>
+   <!ELEMENT fallecimiento(#PCDATA) #IMPLIED>
+   <!ELEMENT pais(#PCDATA)>
+   <!ELEMENT fichaCompleta(#PCDATA)>
+   <!ATTLIST artista codigo ID #REQUIRED>
+

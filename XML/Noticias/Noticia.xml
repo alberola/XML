@@ -1,0 +1,51 @@
+
+<!DOCTYPE Noticia SYSTEM "Noticia.dtd">
+<?xml-stylesheet type="text/xsl" href = "Noticias.xsl"?>
+<Noticias>
+  <Noticia>
+	<!-- POSICION -->
+	<X>10px</X> 
+    <Y>100px</Y>
+	<!-- TAMAÑO DEL DIV -->
+    <Ancho>300px</Ancho>
+    <Alto>120px</Alto>
+	<!-- COLORES -->
+	<ColorFondo>#FECACA</ColorFondo>
+	<!-- COLOR Y ANCHO BORDE -->
+	<ColorLinea>#FF008B</ColorLinea>
+	<AnchoLinea>4px</AnchoLinea>
+	<!-- TEXTO -->
+	<Texto>Noticia nueva</Texto>
+  </Noticia>
+  <Noticia>
+	<!-- POSICION -->
+	<X>10px</X>
+    <Y>200px</Y>
+	<!-- TAMAÑO DEL DIV -->
+    <Ancho>400px</Ancho>
+    <Alto>120px</Alto>
+	<!-- COLORES -->
+	<ColorFondo>#CAFEF1</ColorFondo>
+	<!-- COLOR Y ANCHO BORDE -->
+	<ColorLinea>#0049FF</ColorLinea>
+	<AnchoLinea>2px</AnchoLinea>
+	<!-- TEXTO -->
+	<Texto>Noticia2</Texto>
+  </Noticia>
+  <Noticia>
+	<!-- POSICION -->
+	<X>10px</X>
+    <Y>330px</Y>
+	<!-- TAMAÑO DEL DIV -->
+    <Ancho>500px</Ancho>
+    <Alto>150px</Alto>
+	<!-- COLORES -->
+	<ColorFondo>#FEF7CA</ColorFondo>
+	<!-- COLOR Y ANCHO BORDE -->
+	<ColorLinea>#000000</ColorLinea>
+	<AnchoLinea>5px</AnchoLinea>
+	<!-- TEXTO -->
+	<Texto>Noticia3</Texto>
+  </Noticia>
+ </Noticias>
+ 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	
+	<!ELEMENT Municipio (FechaActual,ProximosDias,Estilo)>
+	<!ELEMENT FechaActual (Franja,Temperatura,Estado)>
+	<!ELEMENT ProximosDias (Mañana,Pasado,Siguiente)>
+	<!ELEMENT Mañana (Dia,TemperaturaMedia)>
+	<!ELEMENT Pasado (Dia,TemperaturaMedia)>
+	<!ELEMENT Siguiente (Dia,TemperaturaMedia)>
+	<!ELEMENT Estilo (Fondo,Color,Ancho,MargenIzquierdo,CentrarTexto)>	
+	<!ELEMENT Franja (#PCDATA)>
+	<!ELEMENT Temperatura (#PCDATA)>
+	<!ELEMENT Estado (#PCDATA)>
+	<!ELEMENT Dia (#PCDATA)>
+	<!ELEMENT TemperaturaMedia (#PCDATA)>
+	<!ELEMENT Fondo (#PCDATA)>
+	<!ELEMENT Color (#PCDATA)>
+	<!ELEMENT Ancho (#PCDATA)>
+	<!ELEMENT MargenIzquierdo (#PCDATA)>
+	<!ELEMENT CentrarTexto (#PCDATA)>
+	

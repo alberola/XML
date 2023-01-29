@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<!ELEMENT Formulario (Nombre, Apellidos, Sexo, Direccion, Numero, CodigoPostal, Poblacion, 
+Provincia, Pais, RecibirPublicidad, TFMovil, TFHogar, Email, Sugerencias, Boton)>
+<!ELEMENT Nombre (Etiqueta, Valor, Ancho)>
+<!ELEMENT Apellidos (Etiqueta, Valor, Ancho)>
+<!ELEMENT Sexo (Etiqueta, Valor, Ancho)>
+<!ELEMENT Direccion (Etiqueta, Valor, Ancho)>
+<!ELEMENT Numero (Etiqueta, Valor, Ancho)>
+<!ELEMENT CodigoPostal (Etiqueta, Valor, Ancho)>
+<!ELEMENT Poblacion (Etiqueta, Valor, Ancho)>
+<!ELEMENT Provincia (Etiqueta, Valor, Ancho)>
+<!ELEMENT RecibirPublicidad (Etiqueta, Valor, Ancho)>
+<!ELEMENT Pais (Etiqueta, ListaPaises, PaisSeleccionado)>
+<!ELEMENT ListaPaises (NombrePais+)>
+<!ELEMENT PaisSeleccionado (#PCDATA)>
+<!ELEMENT TFMovil (Etiqueta, Valor, Ancho)>
+<!ELEMENT TFHogar (Etiqueta, Valor, Ancho)>
+<!ELEMENT Email (Etiqueta, Valor, Ancho)>
+<!ELEMENT Sugerencias (Etiqueta, Valor, Ancho)>
+<!ELEMENT Boton (Etiqueta)>
+<!ELEMENT NombrePais (#PCDATA)>
+<!ELEMENT Etiqueta (#PCDATA)>
+<!ELEMENT Valor (#PCDATA)>
+<!ELEMENT Ancho (#PCDATA)>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Formulario SYSTEM "Formulario.dtd">
+<?xml-stylesheet type="text/xsl" href = "Formulario.xsl"?> 
+<Formulario>
+	<Nombre>
+		<Etiqueta>Nombre: </Etiqueta>
+		<Valor>Alejandro</Valor>
+		<Ancho>60</Ancho>
+	</Nombre>
+	<Apellidos>
+		<Etiqueta>Apellidos: </Etiqueta>
+		<Valor>Alberola</Valor>
+		<Ancho>60</Ancho>
+	</Apellidos>
+	<Sexo>
+		<Etiqueta>Indique su sexo: </Etiqueta>
+		<Valor>Hombre</Valor>
+		<Ancho>60</Ancho>
+	</Sexo>
+	<Direccion>
+		<Etiqueta>Direccion: </Etiqueta>
+		<Valor>Eusebio Barreto</Valor>
+		<Ancho>60</Ancho>
+	</Direccion>
+	<Numero>
+		<Etiqueta>Número: </Etiqueta>
+		<Valor>46</Valor>
+		<Ancho>60</Ancho>
+	</Numero>
+	<CodigoPostal>
+		<Etiqueta>CP: </Etiqueta>
+		<Valor>38760</Valor>
+		<Ancho>60</Ancho>
+	</CodigoPostal>
+	<Poblacion>
+		<Etiqueta>Población: </Etiqueta>
+		<Valor>Los Llanos de Aridane</Valor>
+		<Ancho>60</Ancho>
+	</Poblacion>
+	<Provincia>
+		<Etiqueta>Provincia: </Etiqueta>
+		<Valor>S/C Tenerife</Valor>
+		<Ancho>60</Ancho>
+	</Provincia>
+	<RecibirPublicidad>
+		<Etiqueta>Deseo recibir publicidad</Etiqueta>
+		<Valor>Si</Valor>
+		<Ancho>60</Ancho>
+	</RecibirPublicidad>
+	<Pais>
+		<Etiqueta>País: </Etiqueta>
+		<ListaPaises>
+			<NombrePais>Suecia.</NombrePais>
+			<NombrePais>Finlandia.</NombrePais>
+			<NombrePais>Italia.</NombrePais>
+			<NombrePais>Alemania.</NombrePais>
+		</ListaPaises>
+		<PaisSeleccionado>España</PaisSeleccionado>
+	</Pais>
+	<TFMovil>
+		<Etiqueta>TFMovil: </Etiqueta>
+		<Valor>648428535</Valor>
+		<Ancho>60</Ancho>
+	</TFMovil>
+	<TFHogar>
+		<Etiqueta>TFHogar: </Etiqueta>
+		<Valor>922XXXXXX</Valor>
+		<Ancho>60</Ancho>
+	</TFHogar>
+	<Email>
+		<Etiqueta>Email: </Etiqueta>
+		<Valor>alejandroalberola140495@gmail.com</Valor>
+		<Ancho>60</Ancho>
+	</Email>
+	<Sugerencias>
+		<Etiqueta>Sugerencias: </Etiqueta>
+		<Valor>Deseo recibir mensualmente su boletín. Gracias.</Valor>
+		<Ancho>60</Ancho>
+	</Sugerencias>
+	<Boton>
+		<Etiqueta>Enviar</Etiqueta>
+	</Boton>
+
+</Formulario>

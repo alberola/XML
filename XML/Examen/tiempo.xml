@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE asir SYSTEM "tiempo.dtd">
+<?xml-stylesheet type="text/xsl" href="tiempo.xsl"?>
+
+<Municipio>
+	<FechaActual>
+		<Franja>00-06 Horas</Franja>
+		<Temperatura>16</Temperatura>
+		<Estado></Estado>
+	</FechaActual>
+	<FechaActual>
+		<Franja>06-12 Horas</Franja>
+		<Temperatura>23</Temperatura>	
+		<Estado>Nuboso</Estado>
+	</FechaActual>
+	<FechaActual>
+		<Franja>12-18 Horas</Franja>
+		<Temperatura>26</Temperatura>	
+		<Estado>Despejado</Estado>
+	</FechaActual>
+	<FechaActual>
+		<Franja>18-24 Horas</Franja>
+		<Temperatura>18</Temperatura>
+		<Estado>Muy Nuboso</Estado>		
+	</FechaActual>
+	<ProximosDias>
+		<Mañana>
+			<Dia>Sabado</Dia>
+			<TemperaturaMedia>32</TemperaturaMedia>
+		</Mañana>
+		<Pasado>
+			<Dia>Domingo</Dia>
+			<TemperaturaMedia>24</TemperaturaMedia>
+		</Pasado>
+		<Siguiente>
+			<Dia>Lunes</Dia>
+			<TemperaturaMedia>18</TemperaturaMedia>
+		</Siguiente>
+	</ProximosDias>
+	<Estilo>
+		<Fondo>#F15D08</Fondo>
+		<Color>white</Color>
+		<Ancho>90%</Ancho>
+		<MargenIzquierdo>5%</MargenIzquierdo>
+		<CentrarTexto>center</CentrarTexto>
+	</Estilo>
+</Municipio>
